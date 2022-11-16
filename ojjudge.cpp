@@ -32,12 +32,12 @@ int main(){
                     }    
                 }
                 if(eq){
-                    ofstream opt("eq.txt");
+                    ofstream opt("eq.csv");
                     opt<<program1<<' '<<program2<<endl;
                     opt.close();
                 }
                 else{
-                    ofstream opt("noteq.txt");
+                    ofstream opt("noteq.csv");
                     opt<<program1<<' '<<program2<<endl;
                     opt.close();
                 }
